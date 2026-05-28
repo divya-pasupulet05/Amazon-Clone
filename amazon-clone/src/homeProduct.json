@@ -1,0 +1,20 @@
+{
+  "product": [
+    {
+      "itemTitle": "Top picks for you",
+      "imgs": [
+        "https://m.media-amazon.com/images/I/61KNJav3S9L._AC_UL480_QL65_.jpg",
+        "https://m.media-amazon.com/images/I/71LRY1j6UHL._AC_UL480_FMwebp_QL65_.jpg",
+        "https://m.media-amazon.com/images/I/61q-2yzbBtL._AC_UL480_QL65_.jpg"
+      ]
+    },
+    {
+      "itemTitle": "Best sellers",
+      "imgs": [
+        "https://m.media-amazon.com/images/I/71v2jVh6nIL._AC_UY327_FMwebp_QL65_.jpg",
+        "https://m.media-amazon.com/images/I/710ZcpHUpkL._AC_UL480_FMwebp_QL65_.jpg",
+        "https://m.media-amazon.com/images/I/61Dr+oVuClL._SX3000_.jpg"
+      ]
+    }
+  ]
+}

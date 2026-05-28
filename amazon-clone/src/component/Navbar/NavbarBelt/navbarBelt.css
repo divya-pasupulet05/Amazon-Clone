@@ -1,0 +1,225 @@
+.navbarBelt{
+    background-color: #131921;
+    display: flex;
+    width: 100%;
+    min-height: 60px;
+    align-items: center;
+    color: white;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.leftNavBelt{
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+    align-items: center;
+}
+.leftNavBeltLogo{
+    width: 110px;
+    height: 30px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    padding: 8px;
+    cursor: pointer;
+}
+.leftNavBeltLogo:hover{
+    border: 1px solid;
+    border-radius: 3px;
+}
+.amazonLogoNavbar{
+    width: 97px;
+    height: 100%;
+}
+.navbar_inLogo{
+    margin-left: 2px;
+    font-weight: 400;
+}
+
+/* ------------------------------------ */
+
+.navbarBeltLocation{
+    display: flex;
+    gap: 5px;
+    padding: 8px;
+    height: 30px;
+    cursor: pointer;
+}
+.navbarBeltLocation:hover{
+    border-radius: 3px;
+    border: 1px solid;
+}
+.navbarBeltLocationImg{
+    width: 15px;
+    padding-top: 7px;
+
+}
+.navbarBeltLocationImgIcon{
+    margin-top: 3px;
+}
+.navbarBeltLocationPlace{
+    display: flex;
+    flex-direction: column;
+}
+.navbarBeltLocationTop{
+    font-size: 12px;
+    color: #ccc;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+.navbarBeltLocationBottom{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 10px;
+}
+
+.navbarBeltSearchBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 4px;
+    width: 100%;
+    flex: 1 1 450px;
+    min-width: 280px;
+}
+.navbarBeltSearchDiv{
+    display: flex;
+    width: 100%;
+    max-width: 720px;
+    height: 44px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    overflow: hidden;
+}
+.navbarBeltSearchBoxAll{
+    display: flex;
+    background-color: #f3f3f3;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 12px;
+    cursor: pointer;
+    color: #111;
+    min-width: 88px;
+    border-right: 1px solid #ddd;
+}
+.navbarBeltSearchBoxAllText{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* -------------------------- */
+
+.navbarBeltInputSearchBox{
+    flex: 1;
+    padding: 0 12px;
+    border: none;
+    background: transparent;
+    color: #111;
+    font-size: 14px;
+}
+.navbarBeltInputSearchBox::placeholder{
+    color: #777;
+    font-size: 14px;
+}
+.navbarBeltInputSearchBox:focus{
+    outline: none;
+}
+
+
+/* ---------------------- */
+
+.searchIconNavbarBelt{
+    background-color: #febd69;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    padding: 0 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s ease;
+}
+.searchIconNavbarBelt:hover{
+    background-color: #f1ba73;
+}
+
+.searchIconNavbarBeltIcon{
+    font-size: 20px;
+    color: black;
+}
+
+/* --------------------------------- */
+
+
+.rightSideNavbarBelt{
+    padding: 10px;
+    color: white;
+    display: flex;
+    gap: 1px;
+}
+.indianFlagCode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding: 8px;
+    gap: 5px;
+    cursor: pointer;
+    height: 30px;
+}
+.indianFlagCode:hover{
+    border-radius: 3px;
+    border: 1px solid;
+}
+.indiaFlag{
+    width: 20px;
+    height: 20px;
+    
+}
+.indiaCodeNavbarBelt{
+    font-size: 14px;
+    display: flex;
+    line-height: 10px;
+    align-items: center;
+    font-weight: 700;
+}
+.indiaCodeNavbarBeltDrp{
+    color: #ccc;
+}
+
+.helloSignInNavbarBelt{
+    display: flex;
+    position: relative;
+    color: white;
+    text-decoration: none;
+    flex-direction: column;
+    height: 30px;
+    padding: 8px;
+    cursor: pointer;
+}
+.helloSignInNavbarBelt:hover{
+    border-radius: 3px;
+    border: 1px solid;
+}
+.helloTopNavbarBelt{
+    font-size: 12px;
+    font-weight: 500;
+
+}
+
+
+.cartTitle{
+    font-size: 14px;
+    font-weight: 500;
+}
+.cartItemNumberNavbarBelt{
+    position: absolute;
+    bottom: 70%;
+    left: 22%;
+    color:#febd69 ;
+    font-weight: 600;
+    font-size: 16px;
+}
